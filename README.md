@@ -8,6 +8,6 @@ With this, I can make a dockerhub automated build of an angualrjs app dockerfile
 Use as you would use the `nginx:alpine` image
 
 # Background
-There are many `nginx-npm` entries in [docker hub](hub.docker.com), but none was satisfying enough.
+There are many [nginx-npm](https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=nginx-npm&starCount=0) entries in [docker hub](hub.docker.com), but none was satisfying enough.
 
 The dockerfile here is based on [mkenney](https://github.com/mkenney/docker-npm/blob/master/Dockerfile)'s file, which in its turn is based on [mhart](https://github.com/mhart/alpine-node/blob/master/Dockerfile)'s file, but with comments and shorter lines
