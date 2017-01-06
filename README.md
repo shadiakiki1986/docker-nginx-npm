@@ -1,3 +1,8 @@
+# DEPRECATED
+It turned out from [this SO answer](http://superuser.com/a/1161859/642842) that a simple `apk --update add nodejs` would install npm.
+I don't remember anything special about my requiring npm to be built from nodejs instead of just with `apk add`,
+so I'm marking this repository as deprecated, in favor of the `apk add` solution. I will probably delete the repository later too.
+
 # docker-nginx-npm
 Dockerfile with automated build that is based on nginx:alpine and has npm installed
 
